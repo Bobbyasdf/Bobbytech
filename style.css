@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+}
+
+/* This is the background-color */
+#bg {
+  width: 100%;
+  height: 430px;
+  background-color: rgba(142, 202, 230, 0.07);
+  margin-top: 45px;
+}
+
+#laptop {
+  width: 30%;
+  float: right;
+  margin-top: -480px;
+}
+
+#laptop:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.d-flex {
+  margin-top: -490px;
+  width: 65%;
+}
+
+.d-flex img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.n-list{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.n-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.n-list ul li {
+  display: inline;
+}
+
+.n-list ul li a {
+  color: black;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: small;
+} 
+
+/* description */
+.describe {
+  margin-top: 70px;
+  font-size: smaller;
+}
+
+.describe strong {
+  font-size: 25px;
+  margin-bottom: 70px;
+}
+
+.describe button {
+  font-size: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.describe button:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+/* Course Programs */
+
+.programs {
+  margin-top: 150px;
+}
+
+.programs strong {
+  font-size: small;
+}
+
+.programs p {
+  margin-top: 80px;
+  font-size: smaller;
+}
+
+.programs p u {
+  color: orange;
+}
+
+.programs #img1 {
+ width: 100%;
+ height: 100%;
+}
+
+.programs #img1:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.programs #img2 {
+  width: 100%;
+  height: 100%;
+}
+
+.programs #img2:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.programs #img3 {
+  width: 100%;
+  height: 100%;
+ }
+
+ .programs #img3:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+ 
+ .programs #img4 {
+   width: 100%;
+   height: 100%;
+ }
+
+ .programs #img4:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+/* The modes of study */
+.classes {
+  width:100%;
+  height: 250px;
+  border: 1px solid orange;
+  padding: 15px;
+}
+
+.classes strong {
+  font-size: small;
+  margin-top: 30px;
+}
+
+.classes p.grey {
+  color: gray;
+}
+
+.classes p {
+  margin-top: 10px;
+  font-size: small;
+}
+
+.mode {
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  font-size: large;
+}
+
+.modals {
+  width: 100%;
+  height: 300px;
+  font-size: small;
+  padding: 20px;
+}
+
+/* Our Incredible Lecturers */
+.lecture {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.lecture p {
+  font-size: small;
+}
+
+.lecturers{
+  text-align: center;
+  font-size: small;
+}
+
+.lecturers img {
+  width: 50%;
+}
+
+.lecturers img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+/* Similar Related Courses */
+.courses {
+  background-color: rgba(142, 202, 230, 0.07);
+  margin-top: 30px;
+}
+ 
+.course1 {
+  width: 100%;
+  height: 150px;
+  margin-top: 120px;
+}
+
+.language {
+  width: 100%;
+  height: 450px;
+  background-color: whitesmoke;
+  font-size: smaller; 
+}
+
+.language img {
+  width: 100%;
+}
+
+.language img:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.course2 {
+  margin-top: 30px;
+}
+
+.course2 p a u{
+  color: orange;
+}
+
+/* Joining the organization */
+.Join1 {
+  width: 60%;
+  margin-top: 55px;
+}
+
+.Join2 {
+  width: 60%;
+  margin-top: -250px;
+  margin-left: 50px;
+}
+
+.Join2:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.Join3 {
+  margin-top: 50px;
+}
+
+.Join3 p {
+  margin-top: 50px;
+  font-size: small;
+}
+
+.Join3 button {
+  margin-top: 50px;
+  font-size: 10px;
+  width: 100px;
+  height: 40px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.Join3 button:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+/* Location */
+.locate {
+  margin-top: 50px;
+}
+
+.locate p {
+  margin-top: 50px;
+  font-size: small;
+}
+
+/* Subscription */
+.subscribe {
+  font-size: small;
+  margin-top: 40px;
+  color: white;
+}
+
+.subscribe h6 {
+  color: orange;
+}
+
+.input-group input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  font-size: large;
+}
+
+.input-group span {
+  background-color: orange;
+  border: none;
+  font-size: large;
+}
+
+.input-group span a {
+  text-decoration: none;
+  color: black;
+}
+
